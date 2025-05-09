@@ -55,7 +55,6 @@ pip install .
 | --format        | str       | csv         | Output format: either 'csv' or 'json'.                                           |
 | --output        | str       | current dir | Directory path to save the output. If not provided, saves in the current folder. |
 | -v              | flag      | —           | Displays the current version of the tool.                                        |
-|
 
 ### Examples
 
@@ -71,7 +70,7 @@ obj = Branch("http://example.com")
 response_list = obj.run()
 ```
 
-## 📁 Example Output
+## Example Output
 
 ```json
 [
